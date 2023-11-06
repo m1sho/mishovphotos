@@ -1,0 +1,161 @@
+/* styles.css */
+body {
+    margin: 0;
+
+    background: white;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    text-align: center;
+
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+
+}
+
+.nav {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  ; /* Set the background to black for the navigation menu */
+    padding: 10px 0;
+}
+
+.nav-links {
+    padding-inline-start: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.menu {
+    font-size: 14px; /* Smaller font size */
+     font-family: 'Courier', sans-serif;
+}
+
+.menu a {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* White text color */
+    font-weight: 300; /* Light font weight */
+}
+
+
+
+
+.home-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* styles.css */
+.photo-container {
+    width: 75%; /* Set the width of the container to 75% of the screen width */
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 100%; /* Ensure the container does not exceed the screen width */
+    margin-top: 50px; /* 2px space between hero and grid */
+}
+
+.photo-row {
+    display: flex;
+    gap: 2px; /* 2px space between images */
+    flex-wrap: wrap;
+}
+
+.photo-item {
+    flex: 0 0 calc(25% - 2px); /* Each image takes 25% width with 2px gap */
+    overflow: hidden;
+}
+
+.photo-item img {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: 100%; /* Ensures the image takes up the full height of its container */
+    object-fit: cover; /* Crops the image to fit its container */
+}
+/* Content section styles */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.bio-image {
+
+}
+
+.bio-image img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Bio text styles */
+.bio-image p {
+  font-size: 1em;
+  margin-top: 5px;
+  max-width: 400px;
+  color: #000;
+  font-family:'courier',sans-serif;
+
+}
+/* styles.css */
+.contact-links {
+    text-align: center;
+    font-family: "Courier", monospace;
+}
+/* Centered Image Styling */
+.centered-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content {
+    margin: 20px; /* Add some margin for the content section */
+}
+
+.responsive-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.bio-text {
+    font-size: 3vw; /* Use viewport width unit (vw) for font size */
+    text-align: center;
+}
+
+/* Contact Links Styling */
+.contact-links {
+    text-align: center;
+    font-family: "Courier", monospace;
+}
+
+.contact-link {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.contact-link {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.underlined-link {
+    text-decoration: underline; /* Add underline to the links */
+    color: #000; /* Set the link color to black */
+}
